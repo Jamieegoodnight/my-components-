@@ -58,6 +58,14 @@ class Article {
       this.btnOpn.classList.toggle('hidden-btn');
       this.btnCls.classList.toggle('hidden-btn');
     }
+
+// expandArticle(){
+//   this.domElement.classList.toggle('article-open');
+//   this.btnOpn.classList.toggle('hidden-btn')
+//   this.btnCls.classList.toggle('hidden-btn');
+
+//    Alternate ^^^ 
+
     collapseArticle(){
       TweenMax.to(this.domElement, 1, {
         height: 50,
