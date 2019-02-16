@@ -11,7 +11,7 @@ class Article {
       this.btnOpn.addEventListener('click', () => this.expandArticle());
       this.btnCls.addEventListener('click', () => this.collapseArticle());
     } 
-    expandArticle(){
+    expandArticle(){ 
       TweenMax.to(this.domElement, 1, {
         height: 400,
         ease: Bounce.easeOut
